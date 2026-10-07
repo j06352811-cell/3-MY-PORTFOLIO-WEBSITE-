@@ -2,6 +2,10 @@
 
 A calm, responsive task manager built as a frontend portfolio project. Daymark helps you turn a busy list into a few thoughtful next steps.
 
+## Live demo
+
+Try Daymark here: [daymark-task-manager-ten.vercel.app](https://daymark-task-manager-ten.vercel.app/)
+
 ## Features
 
 - Create, edit, complete, and delete tasks.
@@ -39,6 +43,6 @@ Tasks are held in React state and saved to `localStorage` whenever that state ch
 
 This project brought together React state, component composition, event handling, CRUD operations, and browser storage. It also gave me practice deriving filtered views from a single source of truth, building an accessible form dialog, and adapting a polished interface across screen sizes.
 
-## GitHub and deployment
+## Deployment
 
-This workspace contains the source code. To publish it, create a GitHub repository, push this project, then import the repository into a static hosting service such as Vercel or Netlify. Use `npm run build` as the build command and `dist` as the output directory. No server or environment variables are required.
+The live demo is deployed on Vercel. To deploy your own copy, import the GitHub repository into Vercel and use `npm run build` as the build command and `dist` as the output directory. No server or environment variables are required.
